@@ -16,7 +16,7 @@ public class EmployeeServiceImpl {
 	{
 		return employeeRepo.findAll();
 	}
-public void save(Employee employee)
+public void saveEmpRecord(Employee employee)
 {
 	employeeRepo.save(employee);
 	}
